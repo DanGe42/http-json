@@ -34,6 +34,9 @@ structure as follows.
         }
     }
 
+For more information on how to construct such classes, see the [GSON
+documentation](https://sites.google.com/site/gson/gson-user-guide#TOC-Using-Gson).
+
 To make the JSON request:
 
     JsonResponse response = JsonRequest.get("http://api.open-notify.org/iss-now/");
